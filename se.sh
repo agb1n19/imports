@@ -22,6 +22,11 @@ singularity exec plnr_cmaes.simg ~/sing_set.sh
 
 cd
 
+for i in 1 2 3 4 5
+do
+	chmod 777 $ir_r.sh $ir_ra.sh $ir_r.sh $ir_as.sh $ir_pos.sh $ir_pol.sh
+done
+
 for i in 6 2 3 4 5
 do
 	for j in 1 2 3 4 5
