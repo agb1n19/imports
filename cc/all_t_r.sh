@@ -9,7 +9,7 @@ export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/lyceum/${USR_ACC}/planar_ro
 export BUILD_GRAPHIC=False
 export NUM_CORES=16
 
-for i in 1 2 3 4 5
+for i in 1 2 3
 do
 export replicate=r$i
 export BUILD_TRAIN=True
